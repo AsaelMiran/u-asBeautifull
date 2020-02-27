@@ -1,0 +1,32 @@
+.titulo{
+	text-align: center;
+	color:pink;
+	font-size: 5em;
+}
+.parrafo{
+	font-size:1.5em;
+
+}
+.subtitulo{
+	font-size:3em;
+	color:pink;
+}
+.subtitulo{color:pink;}
+img{
+	display:block;
+	width:20%;
+	height: 200px;
+}
+.contenedor{
+	display: flex;
+	justify-content: space-around;
+}
+.contenedor-2{
+	display: flex;
+	justify-content: space-around;	
+}
+.contenedor-2:nth-of-type(2n){
+	flex-direction: row-reverse;
+}
+
+
